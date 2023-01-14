@@ -19,9 +19,9 @@ public class Main {
             switch (pil) {
                 case "1":
                     MM2.makan();
-                    MM2.minum();
 
-                    System.out.println("Total pembelian adalah :"+ MM.jumlah);
+
+
                     break;
 
                 case "2" :
