@@ -7,8 +7,8 @@ public class MM2 extends  MM {
      public static void makan() {
          System.out.println("Pilih makanan yang kamu beli :");
          System.out.println("1.Oliver (Rp.5000)");
-         System.out.println("2.Mie sedap(Rp.8000");
-         System.out.println("3.kerupuk melinjo(Rp.2000");
+         System.out.println("2.Mie sedap(Rp.8000)");
+         System.out.println("3.kerupuk melinjo(Rp.2000)");
          int pil = input.nextByte();
 
          if (pil == 1) {
@@ -18,6 +18,28 @@ public class MM2 extends  MM {
          } else if (pil == 3) {
               makanan = 2000;
          } else {System.out.println("Makanan tak tersedia ");}
+
+         System.out.println("Pilih minuman yang kamu beli : ");
+         System.out.println("1.Es ExtraJoss (Rp.5000)");
+         System.out.println("2.Jus alpukat (Rp.10000 ");
+         System.out.println("3.Coca-cola (Rp.5000)");
+         int pil1 = input.nextByte();
+
+         if (pil1 == 1){
+             minuman = 5000;
+         }
+         else if(pil1 == 2){
+             minuman = 10000;
+         }
+         else if(pil1 == 3){
+             minuman = 5000;
+         }
+         else{ System.out.println("Minuman tak tersedia");}
+
+         jumlah = makanan + minuman;
+         System.out.println("Total pembelian adalah :"+ jumlah);
+
+
 
      }
 
